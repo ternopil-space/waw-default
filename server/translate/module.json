@@ -1,0 +1,28 @@
+{
+	"repo": "https://github.com/WebArtWork/waw-translate.git",
+	"name": "Translate",
+	"crud": [
+		{
+			"name": "translate",
+			"update": {
+				"keys": ["text"]
+			},
+			"delete": [""]
+		},
+		{
+			"name": "translatephrase",
+			"update": {
+				"keys": ["text"]
+			},
+			"delete": [""]
+		},
+		{
+			"name": "translatelanguage",
+			"update": {
+				"keys": ["name"]
+			},
+			"delete": [""]
+		}
+	],
+	"dependencies": {}
+}

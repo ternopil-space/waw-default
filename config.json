@@ -1,0 +1,24 @@
+{
+	"name": "wawDefault",
+	"description": "Default WAW backend project with reusable server modules",
+	"keywords": "WAW Backend Modules",
+	"license": "MIT",
+	"prefix": "wawDefault",
+	"port": 8080,
+	"session": true,
+	"mongo": {
+		"host": "127.0.0.1",
+		"port": 27017,
+		"db": "waw"
+	},
+	"modules": {
+		"core": "@wawjs/waw-core",
+		"sem": "@wawjs/waw-sem"
+	},
+	"dependencies": {},
+	"user": {
+		"is": {
+			"admin": "ceo@webart.work"
+		}
+	}
+}

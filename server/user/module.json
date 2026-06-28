@@ -1,0 +1,24 @@
+{
+	"priority": 800,
+	"name": "User",
+	"crud": {
+		"create": ["admin"],
+		"update": [
+			{
+				"keys": ["name", "phone", "bio", "thumb", "data"]
+			},
+			{
+				"keys": ["name", "phone", "bio", "thumb", "data", "is"],
+				"name": "admin"
+			}
+		],
+		"fetch": ["", "me"],
+		"delete": ["admin"]
+	},
+	"dependencies": {
+		"bcrypt-nodejs": "*",
+		"nodemailer": "*",
+		"uuid": "*",
+		"njwt": "*"
+	}
+}

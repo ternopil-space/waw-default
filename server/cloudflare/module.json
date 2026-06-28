@@ -1,0 +1,8 @@
+{
+	"repo": "https://github.com/WebArtWork/waw-cloudflare.git",
+	"name": "Cloudflare",
+	"dependencies": {
+		"@aws-sdk/s3-request-presigner": "3.980.0",
+		"@aws-sdk/client-s3": "3.980.0"
+	}
+}

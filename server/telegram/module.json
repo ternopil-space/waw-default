@@ -1,0 +1,13 @@
+{
+	"name": "Telegram",
+	"crud": {
+		"name": "telegramchannel",
+		"update": {
+			"keys": ["chat", "company", "name", "description", "data"]
+		},
+		"delete": [""]
+	},
+	"dependencies": {
+		"grammy": "1.43.0"
+	}
+}
